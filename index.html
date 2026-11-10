@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="head" >
+        <p class="headText"> Welcome to Currency Converter Web</p>
+    </div>
+    <div class="currency">
+        <div class="container">
+        <h2 class="fa-heading">Currency Converter</h2>
+        <form>
+            <div class="amount"> Enter Amount
+                <input class="amt" type="text" placeholder="100" style="color: rgb(0, 0, 0)">
+            </div>
+            <div class="dropdown">
+
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/flat/64.png">
+                        <select name="form">
+                            
+                        </select>
+                         <div class="msg"></div>
+                    </div>
+                    
+
+                </div>
+                    <i class="fa-solid fa-right-left"></i>
+                <div class="to">
+                     <p>To</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/IN/flat/64.png">
+                        <select name="to">
+                            
+                        </select>
+                        <div class="msg"></div>
+                        
+                    </div>
+                </div>
+                
+            </div>    
+            <div class="msg1"></div>
+            <button>Exchange Rate</button>
+            
+        </form>
+        </div>
+    </div>
+    <script src="countryList.js"></script>
+
+    <script src="index.js"></script>
+    
+    
+</body>
+</html>

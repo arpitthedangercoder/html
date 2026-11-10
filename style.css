@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #120f32;
+}
+
+.head{
+    width: 100%;
+    height: 50px;
+    background-color: #120f32;  
+   
+}
+.headText {
+    width: 50%;
+    height: 50px;
+    background-color: #120f32;
+    color: gold;
+     display: flex;
+    justify-self:center;
+    align-items: center;
+  
+    position: absolute;
+    animation: headAnimate 15s ease-in 0s infinite normal ;
+    font-size:1.6rem;
+    font-weight: 900;
+      
+    
+}
+
+@keyframes headAnimate{
+    0%{
+        left:0%;
+    }
+    100%{
+        left:90%;
+
+    }
+}
+
+.currency{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(imageSection/img1.jpg.jpg);
+    background-size: cover;
+    
+    
+}
+
+.fa-heading{
+    color: rgb(97, 44, 0);
+    text-decoration: underline ;
+    
+}
+.amt{
+    width:95%;
+    background-color: #edebeb;
+}
+.container{
+
+    background-color: #56a4f8;
+    padding: 15px;
+    border-radius: 1rem;
+    min-height: 40vh;
+    width: 45vh;
+    font-weight: 700;
+    text-decoration: wavy;
+    
+
+}
+
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+form select,
+button,
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem ;
+
+
+}
+
+form input{
+    border: 1px solid rgb(19, 17, 17);
+    height: 3rem;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+   
+}
+
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.select-container img{
+    max-width: 2rem;
+}
+.select-container{
+
+   
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(3, 0, 67);
+    background-color: white;
+}
+p{
+    margin-bottom: 1rem;
+}
+.select-container select{
+      width :auto;
+      font-size: 0.5rem;
+      
+    
+
+}
+
+.msg{
+    margin: 2rem 0 2rem 0;
+}
+.msg1{
+
+    margin-top: 1rem;
+}
+form button{
+
+    background-color: #40006e;
+    color: rgb(255, 123, 0);
+    font-size: 1.15rem;
+    height: 3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
